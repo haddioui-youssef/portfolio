@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Youssef Haddioui</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Youssef <span>Haddioui</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="about.html" class="nav-link">À propos</a></li>
+                    <li><a href="projects.html" class="nav-link">Projets</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-banner">
+            <h1 class="page-title">Me Contactez</h1>
+            <p class="page-subtitle">Un projet, une question ou une opportunité ? N'hésitez pas à me laisser un message !</p>
+        </div>
+
+        <div class="container">
+            <div class="contact-layout">
+
+                <section class="contact-card">
+                    <h2>Envoyer un message</h2>
+                    <form id="contactForm" novalidate>
+                        <div id="formFeedback" class="form-feedback"></div>
+
+                        <div class="form-group">
+                            <label for="name">Nom complet <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Votre nom et prénom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Adresse Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="votre.email@exemple.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Envoyer le message</button>
+                    </form>
+                </section>
+
+                <section class="contact-card contact-info-card">
+                    <h2>Informations de contact</h2>
+                    <p class="info-intro">
+                        Je suis à votre disposition pour échanger sur vos projets de développement web ou d'intelligence artificielle.
+                    </p>
+
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:youssefhaddioui695@gmail.com">youssefhaddioui695@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Marrakech, Maroc</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Retrouvez-moi sur</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-btn">
+                                GitHub
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-btn">
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p class="footer-brand">Youssef <span>Haddioui</span></p>
+                <nav class="footer-nav">
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="projects.html">Projets</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Youssef Haddioui. Tous droits réservés.</p>
+                <p>Marrakech, Maroc | IA & Ingénierie des Données</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
