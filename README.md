@@ -50,7 +50,7 @@ portfolio/
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/<votre-utilisateur>/<nom-du-repo>.git
+   git clone https://github.com/haddioui-youssef/portfolio
    ```
 2. Ouvrir le dossier du projet et lancer `index.html` dans un navigateur, ou utiliser une extension type *Live Server* pour un rechargement automatique.
 
