@@ -45,7 +45,6 @@ portfolio/
 - Grille de compétences avec badges et barres de progression (page À propos)
 - Galerie de projets avec tags technologiques (page Projets)
 - Formulaire de contact avec validation côté client (champs requis, format email) et message de retour visuel
-- Site entièrement responsive (desktop, tablette ≤768px, mobile ≤480px)
 
 ## 🚀 Installation et exécution locale
 
