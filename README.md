@@ -34,6 +34,7 @@ portfolio/
 ├── js/
 │   └── script.js
 └── README.md
+└── assets/
 ```
 
 > ⚠️ Les pages HTML référencent les fichiers via `css/style.css` et `js/script.js`. Veillez à placer `style.css` dans un dossier `css/` et `script.js` dans un dossier `js/` à la racine du projet.
