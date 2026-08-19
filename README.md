@@ -2,7 +2,7 @@
 
 Site portfolio personnel présentant mon profil, mon parcours, mes compétences, mes projets et un moyen de contact. Réalisé sans framework, uniquement en **HTML, CSS et JavaScript vanilla**.
 
-🔗 **Démo en ligne** : *(ajouter le lien Cloudflare Pages ici après le déploiement)*
+🔗 **Démo en ligne** : portfolio-q76.pages.dev
 
 ## 📄 Pages
 
@@ -51,7 +51,7 @@ portfolio/
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/<votre-utilisateur>/<nom-du-repo>.git
+   git clone https://github.com/haddioui-youssef/portfolio
    ```
 2. Ouvrir le dossier du projet et lancer `index.html` dans un navigateur, ou utiliser une extension type *Live Server* pour un rechargement automatique.
 
