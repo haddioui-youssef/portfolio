@@ -45,7 +45,6 @@ portfolio/
 - Grille de compétences avec badges et barres de progression (page À propos)
 - Galerie de projets avec tags technologiques (page Projets)
 - Formulaire de contact avec validation côté client (champs requis, format email) et message de retour visuel
-- Site entièrement responsive (desktop, tablette ≤768px, mobile ≤480px)
 
 ## 🚀 Installation et exécution locale
 
@@ -61,9 +60,9 @@ Aucune installation de dépendance n'est nécessaire (pas de `npm install`, pas 
 
 Le site est déployé via **Cloudflare Pages**, connecté directement au dépôt GitHub :
 
-- Build command : *(aucune — laisser vide)*
+- Build command : 
 - Framework preset : `None`
-- Output directory : `/` (racine du projet)
+- Output directory : `/` 
 
 Chaque `push` sur la branche principale déclenche un redéploiement automatique.
 
