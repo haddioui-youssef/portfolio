@@ -2,7 +2,7 @@
 
 Site portfolio personnel présentant mon profil, mon parcours, mes compétences, mes projets et un moyen de contact. Réalisé sans framework, uniquement en **HTML, CSS et JavaScript vanilla**.
 
-🔗 **Démo en ligne** : *(ajouter le lien Cloudflare Pages ici après le déploiement)*
+🔗 **Démo en ligne** : portfolio-q76.pages.dev
 
 ## 📄 Pages
 
@@ -60,9 +60,9 @@ Aucune installation de dépendance n'est nécessaire (pas de `npm install`, pas 
 
 Le site est déployé via **Cloudflare Pages**, connecté directement au dépôt GitHub :
 
-- Build command : *(aucune — laisser vide)*
+- Build command : 
 - Framework preset : `None`
-- Output directory : `/` (racine du projet)
+- Output directory : `/` 
 
 Chaque `push` sur la branche principale déclenche un redéploiement automatique.
 
